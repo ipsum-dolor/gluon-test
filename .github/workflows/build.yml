@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'gluonhq/gluon-samples'
+          repository: 'ipsum-dolor/gluon-samples'
           ref: 'f75e9c3c0dda8170ee318ae42377c4549ca0ef3d'
       - uses: gluonhq/setup-graalvm@master
         env:
