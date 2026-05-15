@@ -11,6 +11,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          graalvm: '22.1.0.1-Final'
+          jdk: 'java23'
           arch: aarch64
       - working-directory: ./HelloGluon
         run: mvn -Pios gluonfx:build
